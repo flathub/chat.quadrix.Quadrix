@@ -5,6 +5,6 @@ Terminal=false
 Type=Application
 Icon=chat.quadrix.Quadrix
 StartupWMClass=quadrix
-Comment=Minimal, simple, multi-platform chat app for the Matrix protocol
+Comment=Minimal, simple, multi-platform chat client for the Matrix protocol
 Categories=Network;InstantMessaging;Chat;VideoConference;
 Keywords=matrix;matrix.org;chat;communications;quadrix;
