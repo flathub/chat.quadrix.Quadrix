@@ -16,7 +16,6 @@
       <p>- Video-conferencing (uses Jitsi Meet SDK)</p>
       <p>- Desktop apps for Windows, MacOS, and Linux (amd64, arm64, armhf)</p>
       <p>- Mobile apps for Android and iOS</p>
-      <p>- Push notifications on mobile devices with Firebase Cloud Messaging</p>
       <p>- Unique top-down messaging feed</p>
       <p>- Ideally used with a private Matrix homeserver -- https://matrix.org/docs/guides/installing-synapse</p>
       <p>- Open source on github -- https://github.com/alariej/quadrix</p>
