@@ -10,27 +10,28 @@
     </categories>
     <summary>Minimal, simple, multi-platform chat client for the Matrix protocol</summary>
     <description>
-      <p>- No data collection whatsoever</p>
+      <p>- No data collection</p>
       <p>- Completely free, no ads</p>
-      <p>- Does not support end-to-end encryption (E2EE)</p>    
-      <p>- Integrated video-conferencing with Jitsi Meet</p>
-      <p>- Desktop apps for Windows, MacOS, and Linux</p>
+      <p>- Does not support End-to-End Encryption</p>    
+      <p>- Video-conferencing (uses Jitsi Meet SDK)</p>
+      <p>- Desktop apps for Windows, MacOS, and Linux (amd64, arm64, armhf)</p>
       <p>- Mobile apps for Android and iOS</p>
       <p>- Push notifications on mobile devices with Firebase Cloud Messaging</p>
       <p>- Unique top-down messaging feed</p>
-      <p>- Ideally used with a private Matrix homeserver (https://matrix.org/docs/guides/installing-synapse)</p>
-      <p>- Open source on github (https://github.com/alariej/quadrix)</p>
+      <p>- Ideally used with a private Matrix homeserver -- https://matrix.org/docs/guides/installing-synapse</p>
+      <p>- Open source on github -- https://github.com/alariej/quadrix</p>
+      <p>- Become a sponsor! -- https://github.com/sponsors/alariej</p>
     </description>
     <developer_name>Jean-François Alarie</developer_name>
     <releases>
-      <release version="0.9.3" date="2022-05-12">
+      <release version="1.0.0" date="2022-05-19">
         <description>
           <p>Bug fixes and general improvements</p>
         </description>
       </release>
     </releases>
     <screenshots>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/01.png</image></screenshot>
+      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/01B.png</image></screenshot>
       <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/02.png</image></screenshot>
       <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/03.png</image></screenshot>
       <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/04.png</image></screenshot>
@@ -44,5 +45,5 @@
     <url type="homepage">https://quadrix.chat</url>
     <url type="bugtracker">https://github.com/alariej/quadrix/issues</url>
     <url type="faq">https://github.com/alariej/quadrix</url>
-    <url type="contact">https://github.com/alariej/quadrix</url>
+    <url type="contact">https://github.com/alariej/quadrix#contact</url>
 </component>

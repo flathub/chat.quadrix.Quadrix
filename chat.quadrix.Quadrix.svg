@@ -2,20 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="140mm"
-   height="140mm"
-   viewBox="0 0 140 140"
+   width="109.28283mm"
+   height="109.28283mm"
+   viewBox="0 0 109.28283 109.28283"
    version="1.1"
-   id="svg6156"
+   id="svg7016"
    inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
    sodipodi:docname="chat.quadrix.Quadrix.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview6158"
+     id="namedview7018"
      pagecolor="#ffffff"
      bordercolor="#111111"
      borderopacity="1"
@@ -24,9 +23,16 @@
      inkscape:pagecheckerboard="1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.75366162"
-     inkscape:cx="397.3932"
-     inkscape:cy="348.96297"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-page="true"
+     inkscape:zoom="1.2428876"
+     inkscape:cx="209.59257"
+     inkscape:cy="284.82061"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
      inkscape:window-x="0"
@@ -34,56 +40,14 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs6153">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3591"
-       id="linearGradient3593"
-       x1="84"
-       y1="182.32814"
-       x2="189.9895"
-       y2="76.338646"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-70,-70)">
-      <stop
-         style="stop-color:#ffa419;stop-opacity:1;"
-         offset="0"
-         id="stop3587" />
-      <stop
-         style="stop-color:#52ff0d;stop-opacity:1"
-         offset="1"
-         id="stop3589" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient2357"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(13.999999,20.06311)"
-       x1="-28.875114"
-       y1="-37.964806"
-       x2="112"
-       y2="102.91031">
-      <stop
-         style="stop-color:#ff19ea;stop-opacity:1"
-         offset="0"
-         id="stop2044-7" />
-      <stop
-         style="stop-color:#0090ff;stop-opacity:1"
-         offset="1"
-         id="stop2046-0" />
-    </linearGradient>
-  </defs>
+     id="defs7013" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       id="rect18614-4-9-5-6-5-7-1-6-0-3-6-9"
-       style="color:#000000;fill:url(#linearGradient3593);fill-opacity:1;stroke-width:0.726832;-inkscape-stroke:none"
-       d="m 33.81257,17.02658 c -7.426924,0 -13.727458,6.3006 -13.727458,13.72746 v 58.86491 l -3.031107,11.31272 -3.054002,11.39647 11.396868,-3.05363 11.274769,-3.02096 h 58.91298 c 7.42686,0 13.72747,-6.29907 13.72747,-13.72596 V 30.75404 c 0,-7.42686 -6.30061,-13.72746 -13.72747,-13.72746 z m 6.86369,20.5912 H 88.7209 V 85.66387 H 40.67626 Z" />
-    <path
-       id="rect18614-4-9-5-6-5-7-1-6-4-5-1-36"
-       style="color:#000000;fill:url(#linearGradient2357);fill-opacity:1;stroke-width:0.726832;-inkscape-stroke:none"
-       d="m 106.18745,27.67187 c 7.42687,0 13.72744,6.30059 13.72744,13.72746 v 58.86489 l 3.0311,11.31273 L 126,122.97342 114.60314,119.9198 103.32836,116.89884 H 44.41541 c -7.42691,0 -13.72745,-6.29908 -13.72745,-13.72597 V 41.39933 c 0,-7.42687 6.30054,-13.72746 13.72745,-13.72746 z m -6.86374,20.59121 h -48.0446 v 48.04606 h 48.04462 z" />
+       id="rect7099"
+       style="color:#000000;fill:#ff8000;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
+       d="m 24.641437,14.641282 a 10.001,10.001 0 0 0 -9.999905,9.999905 v 59.99995 a 10.001,10.001 0 0 0 9.999905,9.99991 H 68.867674 L 57.321094,74.641237 H 34.641343 V 34.641096 h 40.000141 v 40.000141 l 11.48095,19.88561 0.014,0.0243 0.0522,0.0904 H 109.28283 L 94.641294,69.282387 v -44.6412 a 10.001,10.001 0 0 0 -9.9999,-9.999905 z" />
   </g>
 </svg>
