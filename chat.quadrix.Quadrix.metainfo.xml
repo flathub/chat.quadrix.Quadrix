@@ -23,17 +23,17 @@
     </description>
     <developer_name>Jean-François Alarie</developer_name>
     <releases>
-      <release version="1.0.1" date="2022-05-20">
+      <release version="1.0.2" date="2022-05-27">
         <description>
           <p>Bug fixes and general improvements</p>
         </description>
       </release>
     </releases>
     <screenshots>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/01B.png</image></screenshot>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/02.png</image></screenshot>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/03.png</image></screenshot>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/04.png</image></screenshot>
+      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/01C.png</image></screenshot>
+      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/02C.png</image></screenshot>
+      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/03C.png</image></screenshot>
+      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/04C.png</image></screenshot>
     </screenshots>
     <content_rating type="oars-1.1">
       <content_attribute id="social-chat">intense</content_attribute>
