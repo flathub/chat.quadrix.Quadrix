@@ -23,13 +23,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://quadrix.chat/releases/deb/amd64/quadrix_1.0.2_amd64.deb
-        sha256: 27bd4ef629aade8aca3079122b1c24b5d9ae7b6148b446b31d35eb82618d3003
+        url: https://quadrix.chat/releases/deb/amd64/quadrix_1.0.3_amd64.deb
+        sha256: ecbda222d8a6c177ded62e529b7a88b36c71cb7b281dfabe942b74a746ee395e
       - type: file
         only-arches:
           - aarch64
-        url: https://quadrix.chat/releases/deb/arm64/quadrix_1.0.2_arm64.deb
-        sha256: a96934d752c30833e43562baef4215af50892d91f0d3cd225940f9a9faf05e89
+        url: https://quadrix.chat/releases/deb/arm64/quadrix_1.0.3_arm64.deb
+        sha256: 7b9aee327749226653820aa0bf1032c82517bec400670daf048159ef38c8b408
       - type: file
         path: chat.quadrix.Quadrix.metainfo.xml
       - type: file
