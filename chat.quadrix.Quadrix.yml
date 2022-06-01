@@ -8,7 +8,8 @@ command: run.sh
 separate-locales: false
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
   - --device=all
@@ -39,7 +40,11 @@ modules:
       - type: script
         dest-filename: run.sh
         commands:
+          - if [ "${XDG_SESSION_TYPE}" == "wayland" ]; then
+          - zypak-wrapper.sh /app/Quadrix/quadrix --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"
+          - else
           - zypak-wrapper.sh /app/Quadrix/quadrix "$@"
+          - fi
     build-commands:
       - ar x quadrix_*.deb
       - rm quadrix_*.deb
