@@ -45,4 +45,13 @@
     <url type="bugtracker">https://github.com/alariej/quadrix/issues</url>
     <url type="faq">https://github.com/alariej/quadrix</url>
     <url type="contact">https://github.com/alariej/quadrix#contact</url>
+    <recommends>
+      <control>keyboard</control>
+      <control>pointing</control>
+      <control>touch</control>
+    </recommends>
+    <requires>
+      <display_length compare="lt">xlarge</display_length>
+      <display_length compare="gt">xsmall</display_length>
+    </requires>
 </component>
