@@ -8,3 +8,4 @@ StartupWMClass=quadrix
 Comment=Minimal, simple, multi-platform chat client for the Matrix protocol
 Categories=Network;InstantMessaging;Chat;VideoConference;
 Keywords=matrix;matrix.org;chat;communications;quadrix;
+X-Purism-FormFactor=Workstation;Mobile;
