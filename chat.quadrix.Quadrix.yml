@@ -40,7 +40,7 @@ modules:
       - type: script
         dest-filename: run.sh
         commands:
-          - if [ "${XDG_SESSION_TYPE}" == "wayland" ] && [ "${XDG_SESSION_DESKTOP}" == "phosh" ]; then
+          - if [ "${XDG_SESSION_TYPE}" == "wayland" ] && [ "${XDG_SESSION_DESKTOP}" == "phosh" || "${XDG_SESSION_DESKTOP}" == "swmo" || "${XDG_SESSION_DESKTOP}" == "kde" ]; then
           - zypak-wrapper.sh /app/Quadrix/quadrix --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"
           - else
           - zypak-wrapper.sh /app/Quadrix/quadrix "$@"
