@@ -1,9 +1,9 @@
 app-id: chat.quadrix.Quadrix
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '22.08'
 command: run.sh
 separate-locales: false
 finish-args:
@@ -24,13 +24,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://quadrix.chat/releases/deb/amd64/quadrix_1.3.6_amd64.deb
-        sha256: 23361559015215d113bff08d258d6ac28c2d04a57aa23289e9186b6748e9ea25
+        url: https://quadrix.chat/releases/deb/amd64/quadrix_1.4.0_amd64.deb
+        sha256: d99806265f6bc3833bdb6d1c7c51146504ccee60775c98ae8fa8d93c1e7c1d13
       - type: file
         only-arches:
           - aarch64
-        url: https://quadrix.chat/releases/deb/arm64/quadrix_1.3.6_arm64.deb
-        sha256: e971baaad76fefd9add328ed402b4cbe71518299aedf783494d964422f61e36c
+        url: https://quadrix.chat/releases/deb/arm64/quadrix_1.4.0_arm64.deb
+        sha256: 2573b6726737ef49c90891ae0118baabdc9006bed206c4013793f654bcae3720
       - type: file
         path: chat.quadrix.Quadrix.metainfo.xml
       - type: file
