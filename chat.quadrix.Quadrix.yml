@@ -24,13 +24,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://quadrix.chat/releases/deb/amd64/quadrix_1.4.2_amd64.deb
-        sha256: 03665b202f8dbf0c317898cc1a4654b683beab92bee78df6e0f7fddb4c35a01d
+        url: https://quadrix.chat/releases/deb/amd64/quadrix_1.4.3_amd64.deb
+        sha256: 25659b665c37abc74f1f14f8d86626a0b3476adc56e68d3d57883274e109b709
       - type: file
         only-arches:
           - aarch64
-        url: https://quadrix.chat/releases/deb/arm64/quadrix_1.4.2_arm64.deb
-        sha256: 3d460fcd53bc8bb125956acf18edeb2c7dc495fd32960e3c0e23d9b31ae7edd6
+        url: https://quadrix.chat/releases/deb/arm64/quadrix_1.4.3_arm64.deb
+        sha256: 655b6e3e73e8a0941914c9cba96db1bdcb31564bef9e2dfa73b32f97bd61c6ee
       - type: file
         path: chat.quadrix.Quadrix.metainfo.xml
       - type: file
@@ -40,7 +40,7 @@ modules:
       - type: script
         dest-filename: run.sh
         commands:
-          - if [ "${XDG_SESSION_TYPE}" == "wayland" ] && [ "${XDG_SESSION_DESKTOP}" == "phosh" -o "${XDG_SESSION_DESKTOP}" == "swmo" -o "${XDG_SESSION_DESKTOP}" == "kde" ]; then
+          - if [ "${XDG_SESSION_TYPE}" == "wayland" ] && [ "${XDG_SESSION_DESKTOP}" == "swmo" -o "${XDG_SESSION_DESKTOP}" == "kde" ]; then
           - zypak-wrapper.sh /app/Quadrix/quadrix --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"
           - else
           - zypak-wrapper.sh /app/Quadrix/quadrix "$@"
