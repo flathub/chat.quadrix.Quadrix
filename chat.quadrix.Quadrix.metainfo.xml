@@ -13,7 +13,7 @@
       <p>- No data collection</p>
       <p>- Completely free, no ads</p>
       <p>- Does not support End-to-End Encryption</p>
-      <p>- Video-conferencing (uses Jitsi Meet SDK)</p>
+      <p>- Video-conferencing (uses Element Call -- https://github.com/vector-im/element-call#readme)</p>
       <p>- Desktop apps for Windows, MacOS, and Linux (amd64, arm64, armhf)</p>
       <p>- Mobile apps for Android and iOS</p>
       <p>- Unique top-down messaging feed</p>
@@ -23,7 +23,7 @@
     </description>
     <developer_name>Jean-François Alarie</developer_name>
     <releases>
-      <release version="1.4.8" date="2022-12-07">
+      <release version="1.5.4" date="2023-03-28">
         <description>
           <p>Bug fixes and general improvements</p>
         </description>
