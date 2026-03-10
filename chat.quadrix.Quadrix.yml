@@ -1,9 +1,9 @@
 app-id: chat.quadrix.Quadrix
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '25.08'
 command: run.sh
 separate-locales: false
 finish-args:
@@ -51,6 +51,6 @@ modules:
       - tar xf data.tar.xz
       - mv opt/* "/app/Quadrix"
       - install -Dm0755 -t /app/bin/ run.sh
-      - install -Dm0644 chat.quadrix.Quadrix.desktop /app/share/applications/chat.quadrix.Quadrix.desktop
-      - install -Dm0644 chat.quadrix.Quadrix.metainfo.xml /app/share/metainfo/chat.quadrix.Quadrix.metainfo.xml
-      - install -Dm0644 chat.quadrix.Quadrix.svg /app/share/icons/chat.quadrix.Quadrix.svg
+      - install -Dm0644 chat.quadrix.Quadrix.desktop -t /app/share/applications/
+      - install -Dm0644 chat.quadrix.Quadrix.metainfo.xml -t /app/share/metainfo/
+      - install -Dm0644 chat.quadrix.Quadrix.svg -t /app/share/icons/hicolor/scalable/apps/
