@@ -5,9 +5,6 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0-or-later</project_license>
     <name>Quadrix</name>
-    <categories>
-        <category>Internet</category>
-    </categories>
     <summary>Minimal, simple, multi-platform chat client for the Matrix protocol</summary>
     <description>
       <p>- No data collection</p>
@@ -21,7 +18,9 @@
       <p>- Open source on github -- https://github.com/alariej/quadrix</p>
       <p>- Interested to sponsor this project? -- https://github.com/sponsors/alariej</p>
     </description>
-    <developer_name>Jean-François Alarie</developer_name>
+    <developer id="chat.quadrix">
+      <name>Jean-François Alarie</name>
+    </developer>
     <releases>
       <release version="1.7.2" date="2023-07-29">
         <description>
@@ -30,10 +29,18 @@
       </release>
     </releases>
     <screenshots>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/01C.png</image></screenshot>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/02C.png</image></screenshot>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/03C.png</image></screenshot>
-      <screenshot><image type="source">https://quadrix.chat/appstores/flathub/screenshots/04C.png</image></screenshot>
+      <screenshot type="default">
+        <image type="source">https://quadrix.chat/appstores/flathub/screenshots/01C.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://quadrix.chat/appstores/flathub/screenshots/02C.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://quadrix.chat/appstores/flathub/screenshots/03C.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://quadrix.chat/appstores/flathub/screenshots/04C.png</image>
+      </screenshot>
     </screenshots>
     <content_rating type="oars-1.1">
       <content_attribute id="social-chat">intense</content_attribute>
@@ -43,6 +50,7 @@
     </metadata>
     <url type="homepage">https://quadrix.chat</url>
     <url type="bugtracker">https://github.com/alariej/quadrix/issues</url>
+    <url type="vcs-browser">https://github.com/alariej/quadrix</url>
     <url type="faq">https://github.com/alariej/quadrix</url>
     <url type="contact">https://github.com/alariej/quadrix#contact</url>
     <recommends>
@@ -50,12 +58,7 @@
       <control>pointing</control>
       <control>touch</control>
     </recommends>
-    <requires>
-      <display_length compare="lt">xlarge</display_length>
-      <display_length compare="gt">xsmall</display_length>
-    </requires>
     <custom>
-      <value key="Purism::form_factor">workstation</value>
       <value key="Purism::form_factor">mobile</value>
     </custom>
 </component>
